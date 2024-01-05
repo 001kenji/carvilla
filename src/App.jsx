@@ -23,6 +23,13 @@ import brandImg3 from './assets/images/brand/br3.png'
 import brandImg4 from './assets/images/brand/br4.png'
 import brandImg5 from './assets/images/brand/br5.png'
 import brandImg6 from './assets/images/brand/br6.png'
+import client1 from './assets/images/clients/c1.jpg'
+import client2 from './assets/images/clients/c2.jpg'
+import client3 from './assets/images/clients/c3.png'
+import client4 from './assets/images/clients/c4.jpg'
+import carImg from './assets/images/car.png'
+import carMaintenanceImg from './assets/images/maintenance.png'
+import carInsurenceImg from './assets/images/car-insurance.png'
 function App() {
   
   const [shownav, setshownav] = useState(false)
@@ -42,27 +49,27 @@ function App() {
   }
   const moreInfoDatabase = [
     {
-      img :'',
+      img :carImg,
       ImgAlt : 'car icon',
       title : 'Largest Dealership of Car',
-      description :'description here'
+      description :'No matter what your lifestyle or budget, CARVILLA has the wheels to get you there. Browse our extensive inventory of new and pre-owned cars, trucks, SUVs, and more, all under one roof!'
     },
     {
-      img :'',
+      img :carMaintenanceImg,
       ImgAlt : 'car warrenty icon',
       title : 'Unlimited Repar Warrenty',
-      description :'description here'
+      description :'Ditch the dread of repair bills. Our Unlimited Warranty covers you head-to-tail, mile after mile, for complete peace of mind. Drive worry-free and experience the joy of endless open roads.'
     },
     {
-      img :'',
+      img :carInsurenceImg,
       ImgAlt : 'car insurence icon',
       title : 'Insurence Support',
-      description :'description here'
+      description :'Peace of mind for the open road. Get a quote for comprehensive car insurance in minutes, and enjoy the drive knowing you\'re covered.'
     }
   ]
   const moreInfoDatabaseMapper = moreInfoDatabase.map((details) => 
       <div className=' sm:w-[45%] transition-all duration-500 ease-in-out hover:shadow-lg hover:shadow-slate-900 hover:text-white hover:bg-blue-500 text-center gap-3 border-[1px] border-slate-400 rounded-sm p-3 flex flex-col justify-around'>
-        <img className=' min-w-[100px] min-h-[100px] max-h-[100px] mx-auto max-w-[100px] border-[0.5px] border-slate-400 rounded-full' src={details.img} alt={details.alt} />
+        <img className=' p-3 min-w-[100px] min-h-[100px] max-h-[100px] mx-auto max-w-[100px] border-[0.5px] border-slate-400 rounded-full' src={details.img} alt={details.alt} />
         <h1 className=' font-semibold text-base'>{details.title}</h1>
         <blockquote className=' text-center font-mono'>{details.description}</blockquote>
         <span className=' min-w-[30px] max-w-[60px] mx-auto min-h-[3px] bg-blue-600 rounded-sm'></span>
@@ -72,19 +79,19 @@ const newCarDatabase = [
   {
     title : 'Ferrari 488 superfase',
     img : NewCarFerrariImg,
-    description : 'description here',
+    description : 'As a seasoned Ferrari client, let me tell you: this new model isn\'t just an evolution, it\'s a revelation. It purrs with the fury of a lion, yet handles like a ballerina on moonbeams.',
     more_Description : 'descripton here - to bee seen on large screen'
   },
   {
     title : 'Chevrolet Camaro',
     img : NewCarImgChevloret1,
-    description : 'description here',
+    description : 'Listen, the new Camaro\'s a beast. It\'s got that classic muscle car swagger, all sharp lines and bulging hood, but it handles like a dream. I took it up a winding mountain road, and it hugged the curves like a panther.',
     more_Description : 'descripton here - to bee seen on large screen'
   },
   {
     title : 'BMW Series-3 Wagon',
     img : NewCarBMWImg,
-    description : 'description here',
+    description : 'If you\'re looking for a stylish and practical car that\'s a blast to drive, the BMW 3 Series Wagon is the perfect choice. It\'s got all the performance and handling you\'d expect from a BMW, plus tons of space for gear and groceries.',
     more_Description : 'descripton here - to bee seen on large screen'
   }
 ]
@@ -208,26 +215,26 @@ const FeauterCarsDBMapper = FeauterCarsDB.map((details) =>
 
 const clientDB = [
   {
-    img :'',
-    description : 'description here',
+    img :client1,
+    description : 'My beat-up truck found a second life at CARVILLA. They navigated the maze of financing for me, and now my little family cruises in comfort thanks to their TLC. You want smooth wheels and honest deals? This is your pit stop',
     name : 'Tomas Lili',
     residence : 'New York'
   },
   {
-    img :'',
-    description : 'description here',
+    img :client2,
+    description : 'My beat-up truck found a second life at CARVILLA. They navigated the maze of financing for me, and now my little family cruises in comfort thanks to their TLC. You want smooth wheels and honest deals? This is your pit stop',
     name : 'Clack Kental',
     residence : 'Jamaica'
   },
   {
-    img :'',
-    description : 'description here',
+    img :client3,
+    description : 'My beat-up truck found a second life at CARVILLA. They navigated the maze of financing for me, and now my little family cruises in comfort thanks to their TLC. You want smooth wheels and honest deals? This is your pit stop',
     name : 'Cloe Adamn',
     residence : 'Washington DC'
   },
   {
-    img :'',
-    description : 'description here',
+    img :client4,
+    description : 'My beat-up truck found a second life at CARVILLA. They navigated the maze of financing for me, and now my little family cruises in comfort thanks to their TLC. You want smooth wheels and honest deals? This is your pit stop',
     name : 'John Doe',
     residence : 'Sweden'
   }
@@ -336,7 +343,7 @@ const ToTopStyler ={
     <div id='home-container-div'>
       <div className='  text-slate-50' id='home-content-div'>
         <h1 className='  font-bold text-xl text-white'>GET YOUR DESIRED CAR IN RESONABLE PRICE</h1>
-        <blockquote className=' text-slate-100 font-mono'>description here</blockquote>
+        <blockquote className=' text-slate-100 font-mono'>Ready to hit the road in the perfect vehicle? Look no further than CARVILLA! We offer a premium selection of new and used cars, trucks, and SUVs to fit every budget and lifestyle.</blockquote>
         <button className=' hover:bg-gradient-to-br ease-in-out from-slate-900 to-red-500 hover:text-yellow-400 hover:font-semibold  min-w-[140px] transition-all duration-500 bg-blue-700 p-3 text-center text-sm font-semibold rounded-sm mx-auto grid align-middle text-slate-50'><p className=' transition-all ease-in-out duration-500 h-full hover:animate-bounce'>Contact Us</p></button>
 
       </div>
