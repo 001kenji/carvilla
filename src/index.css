@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* button:hover {
+    animation-name: BtAni;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1 ;
+    
+}   
+@keyframes BtAni {
+    from {
+        background-image:linear-gradient( to bottom right,black,transparent ) ;
+    }
+    
+} */
+
+#root {
+    position: relative;
+}

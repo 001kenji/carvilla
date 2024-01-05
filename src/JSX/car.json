@@ -1,0 +1,72 @@
+{
+    "cars": [
+      {
+        "car_name": "Civic",
+        "brand": "Honda",
+        "description": "The Honda Civic is a popular compact car known for its reliability and fuel efficiency.",
+        "image": "civic_image.jpg"
+      },
+      {
+        "car_name": "Camry",
+        "brand": "Toyota",
+        "description": "The Toyota Camry is a midsize sedan that offers a smooth ride and spacious interior.",
+        "image": "camry_image.jpg"
+      },
+      {
+        "car_name": "Accord",
+        "brand": "Honda",
+        "description": "The Honda Accord is a versatile midsize sedan with a comfortable interior and advanced safety features.",
+        "image": "accord_image.jpg"
+      },
+      {
+        "car_name": "Fusion",
+        "brand": "Ford",
+        "description": "The Ford Fusion is a stylish midsize sedan with a hybrid option for fuel efficiency.",
+        "image": "fusion_image.jpg"
+      },
+      {
+        "car_name": "Altima",
+        "brand": "Nissan",
+        "description": "The Nissan Altima is a reliable midsize sedan known for its comfortable ride and advanced safety technology.",
+        "image": "altima_image.jpg"
+      },
+      {
+        "car_name": "Corolla",
+        "brand": "Toyota",
+        "description": "The Toyota Corolla is a compact car known for its fuel efficiency and practicality.",
+        "image": "corolla_image.jpg"
+      },
+      {
+        "car_name": "Model 3",
+        "brand": "Tesla",
+        "description": "The Tesla Model 3 is an electric sedan with cutting-edge technology and impressive performance.",
+        "image": "model3_image.jpg"
+      },
+      {
+        "car_name": "Cherokee",
+        "brand": "Jeep",
+        "description": "The Jeep Cherokee is a rugged SUV known for its off-road capabilities and spacious interior.",
+        "image": "cherokee_image.jpg"
+      },
+      {
+        "car_name": "CR-V",
+        "brand": "Honda",
+        "description": "The Honda CR-V is a popular compact SUV with a spacious interior and excellent fuel efficiency.",
+        "image": "crv_image.jpg"
+      },
+      {
+        "car_name": "Escape",
+        "brand": "Ford",
+        "description": "The Ford Escape is a compact SUV with a comfortable ride and versatile cargo space.",
+        "image": "escape_image.jpg"
+      },
+      {
+        "car_name": "Highlander",
+        "brand": "Toyota",
+        "description": "The Toyota Highlander is a midsize SUV known for its reliability and family-friendly features.",
+        "image": "highlander_image.jpg"
+      }
+      
+    ]
+  }
+  
