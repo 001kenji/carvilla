@@ -38,14 +38,15 @@ function App() {
   const [brandScroll, setBrand] = useState(0)
   const [showScroller, setShowScroller] = useState(true)
   const navId = document.getElementById('botton-container-div')
-  console.log(navId)
+  
   const [navheight, setnavheight] = useState('fit-content')
   const navstyler = {
-    height : shownav ? window.innerWidth < 769 ?'180px' : '50px' : '0px'
+    height : shownav ? window.innerWidth < 1024 ?'180px' : '50px' : '0px'
   }
 
   function ShowNav() {
       setshownav((e) => !e)
+      console.log('called')
   }
   const moreInfoDatabase = [
     {
@@ -288,7 +289,7 @@ useEffect(() => {
   }
 
 window.innerWidth > 100 ? scroller() : ''
-window.innerWidth >=769 ? setshownav(true) : ''
+window.innerWidth >=1024 ? setshownav(true) : ''
 })
 
 const date = new Date()
